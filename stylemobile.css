@@ -1,0 +1,38 @@
+/* Mobile L */
+@media (max-width: 525px) {
+	/* Navbar */
+	.navbar-logo {
+		padding-left: 2rem;
+	}
+	.navbar-button-wrapper {
+		padding-right: 2rem;
+	}
+	/* Header */
+	.header-content h1 {
+		font-size: 6rem;
+	}
+	.header-content p {
+		font-size: 4rem;
+	}
+	/* Classes */
+}
+/* Mobile M */
+@media (max-width: 425px) {
+}
+/* Mobile S */
+@media (max-width: 325px) {
+	/* Navbar */
+	.navbar-logo {
+		padding-left: 1rem;
+	}
+	.navbar-button-wrapper {
+		padding-right: 1rem;
+	}
+	/* Header */
+	.header-content h1 {
+		font-size: 5rem;
+	}
+	.header-content p {
+		font-size: 3rem;
+	}
+}

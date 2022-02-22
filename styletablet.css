@@ -1,0 +1,56 @@
+/* Tablet L */
+@media (max-width: 1100px) {
+	/* Header */
+	.header {
+		height: 1144px;
+	}
+	/* Classes */
+	.classes-join {
+		height: 250px;
+	}
+	.classes-join-left h1 {
+		font-size: 3rem;
+	}
+
+	.classes-join-left p {
+		font-size: 1rem;
+	}
+
+	.classes-join-left a {
+		font-size: 1rem;
+	}
+	.classes-join-right img {
+		max-height: 200px;
+	}
+}
+
+/* Tablet M */
+@media (max-width: 768px) {
+	/* Classes */
+	.classes-join-left h1 {
+		padding-top: 2rem;
+		font-size: 2rem;
+	}
+}
+
+/* Tablet S */
+@media (max-width: 700px) {
+	/* Navbar */
+	.navbar-contents {
+		height: 15rem;
+		flex-direction: column;
+	}
+	/* Classes */
+	.classes-join {
+		height: 400px;
+		flex-direction: column;
+	}
+	.classes-join-left {
+		width: 100%;
+		text-align: center;
+	}
+	.classes-join-right {
+		justify-content: center;
+		align-items: center;
+	}
+}
