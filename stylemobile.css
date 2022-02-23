@@ -18,7 +18,45 @@
 }
 /* Mobile M */
 @media (max-width: 425px) {
+	/* Classes */
+	.classes-promos-left {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.classes-join-left h1 {
+		font-size: 2.5rem;
+	}
+	.classes-join-left p {
+		font-size: 1rem;
+	}
+	.classes-promos-left h1 {
+		font-size: 2rem;
+	}
+	.classes-promos-left p {
+		font-size: 1rem;
+	}
+	.classes-promos-text h1 {
+		font-size: 1.25rem;
+	}
+	.classes-promos-img-slides {
+		max-width: 180px;
+		border-radius: 20px;
+	}
+	.classes-promos-img-left-btn {
+		margin-right: 0.75rem;
+	}
+	.classes-promos-img-right-btn {
+		margin-left: 0.75rem;
+	}
 }
+/* Intermediary Media */
+@media (max-width: 370px) {
+	/* Classes */
+	.classes-promos {
+		height: 1540px;
+	}
+}
+
 /* Mobile S */
 @media (max-width: 325px) {
 	/* Navbar */

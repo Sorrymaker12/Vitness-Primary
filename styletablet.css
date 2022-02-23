@@ -5,22 +5,70 @@
 		height: 1144px;
 	}
 	/* Classes */
+	.classes {
+		height: 1250px;
+	}
+	/* Join */
 	.classes-join {
 		height: 250px;
 	}
 	.classes-join-left h1 {
 		font-size: 3rem;
 	}
-
 	.classes-join-left p {
 		font-size: 1rem;
 	}
-
 	.classes-join-left a {
 		font-size: 1rem;
 	}
 	.classes-join-right img {
 		max-height: 200px;
+	}
+	/* Promos */
+	.classes-promos-left h1 {
+		font-size: 2.5rem;
+		padding-bottom: 2rem;
+	}
+	.classes-promos-left p {
+		font-size: 1rem;
+	}
+	.classes-learn-more {
+		padding-top: 3rem;
+	}
+	.classes-learn-more button {
+		padding: 0.7rem 1rem 0.7rem 1rem;
+	}
+	.classes-promos-text h1 {
+		font-size: 2rem;
+		color: white;
+		display: inline-block;
+		text-align: center;
+	}
+	.classes-promos-img-slides {
+		max-width: 250px;
+		border-radius: 25px;
+	}
+	.classes-promos-img-left-btn {
+		padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+		margin-right: 1rem;
+	}
+	.classes-promos-img-right-btn {
+		padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+		margin-left: 1rem;
+	}
+}
+
+/* Intermediary Media */
+@media (max-width: 900px) {
+	/* Classes Promos */
+	.classes {
+		height: 1200px;
+	}
+	.classes-promos-text h1 {
+		font-size: 1.5rem;
+		color: white;
+		display: inline-block;
+		text-align: center;
 	}
 }
 
@@ -30,6 +78,12 @@
 	.classes-join-left h1 {
 		padding-top: 2rem;
 		font-size: 2rem;
+	}
+	.classes-promos-img-left-btn {
+		margin-right: 0.5rem;
+	}
+	.classes-promos-img-right-btn {
+		margin-left: 0.5rem;
 	}
 }
 
@@ -41,6 +95,10 @@
 		flex-direction: column;
 	}
 	/* Classes */
+	.classes {
+		height: 2000px;
+		background: #181818;
+	}
 	.classes-join {
 		height: 400px;
 		flex-direction: column;
@@ -52,5 +110,53 @@
 	.classes-join-right {
 		justify-content: center;
 		align-items: center;
+	}
+	/* Classes Promos */
+	.classes-promos {
+		display: flex;
+		flex-direction: column;
+		height: 1520px;
+	}
+	.classes-promos-left {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 6rem;
+	}
+	.classes-promos-right {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 6rem;
+	}
+	.classes-image {
+		position: absolute;
+		left: 0;
+	}
+	.classes-join-left h1 {
+		font-size: 4rem;
+	}
+	.classes-join-left p {
+		font-size: 1.25rem;
+	}
+	.classes-join-left a {
+		font-size: 1.25rem;
+	}
+	.classes-promos-left h1 {
+		font-size: 3.5rem;
+	}
+	.classes-promos-left p {
+		font-size: 1.5rem;
+	}
+	.classes-learn-more button {
+		font-size: 1rem;
+		padding: 1.4rem 2rem 1.4rem 2rem;
+	}
+	.classes-promos-img-left-btn {
+		margin-right: 1.5rem;
+	}
+	.classes-promos-img-right-btn {
+		margin-left: 1.5rem;
+	}
+	.classes-promos-text h1 {
+		font-size: 1.75rem;
 	}
 }
