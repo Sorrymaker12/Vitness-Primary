@@ -472,3 +472,7 @@
 	max-height: 150px;
 	max-width: 150px;
 }
+
+.footer-left a {
+	text-decoration: none;
+}

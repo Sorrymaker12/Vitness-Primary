@@ -14,7 +14,26 @@
 	.header-content p {
 		font-size: 4rem;
 	}
-	/* Classes */
+	/* News */
+	.news {
+		height: 2300px;
+	}
+	.news-content-image {
+		max-width: 400px;
+		height: 550px;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.news-content-image-overlay {
+		width: 400px;
+		height: 500px;
+	}
+	.footer-left {
+		padding-left: 2rem;
+	}
+	.footer-right {
+		padding-right: 2rem;
+	}
 }
 
 /* Intermediary Media Query */
@@ -70,6 +89,24 @@
 	.classes-promos-img-right-btn {
 		margin-left: 1rem;
 	}
+	/* News */
+	.news {
+		height: 2100px;
+	}
+	.news-content-image {
+		max-width: 350px;
+		height: 437.5px;
+	}
+	.news-content-image-overlay {
+		width: 350px;
+		height: 437.5px;
+	}
+	/* Footer */
+	.footer-socmed img {
+		margin-top: 0;
+		max-height: 35px;
+		max-width: 35px;
+	}
 }
 /* Intermediary Media */
 @media (max-width: 400px) {
@@ -98,6 +135,25 @@
 	.classes-promos-img-slides {
 		max-width: 200px;
 	}
+	/* News */
+	.news {
+		height: 1900px;
+	}
+	.news-content-image {
+		max-width: 300px;
+		height: 375px;
+	}
+	.news-content-image-overlay {
+		width: 300px;
+		height: 375px;
+	}
+	/* Footer */
+	.footer h1 {
+		font-size: 1.25rem;
+	}
+	.footer a {
+		font-size: 1.25rem;
+	}
 }
 
 /* Mobile S */
@@ -115,5 +171,35 @@
 	}
 	.classes-promos-img-slides {
 		max-width: 180px;
+	}
+}
+
+/* IDK */
+@media (max-width: 300px) {
+	/* Header */
+	.header-content h1 {
+		font-size: 4rem;
+	}
+	/* Classes */
+	.classes-promos-img-slides {
+		max-width: 140px;
+	}
+	.classes-promos-text h1 {
+		font-size: 1.125rem;
+	}
+	/* News */
+	.news {
+		height: 1700px;
+	}
+	.news-title p {
+		font-size: 4rem;
+	}
+	.news-content-image {
+		max-width: 250px;
+		height: 312.5px;
+	}
+	.news-content-image-overlay {
+		width: 250px;
+		height: 312.5px;
 	}
 }
