@@ -4,7 +4,129 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Join Us!</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./styletablet.css" />
+		<link rel="stylesheet" href="./stylemobile.css" />
+		<link rel="stylesheet" href="./regis.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+			integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<title>Join Us</title>
 	</head>
-	<body></body>
+	<body>
+		<!-- NAVBAR -->
+		<div class="navbar-wrapper">
+			<nav class="navbar">
+				<div class="navbar-logo">
+					<a href="./index.html"
+						><img src="./Images/LogoNav.png" alt="Logo Navbar"
+					/></a>
+				</div>
+				<div class="navbar-button-wrapper">
+					<button class="navbar-button" id="clickMe">Click Me</button>
+				</div>
+			</nav>
+			<div class="navbar-contents" id="navbarContents">
+				<a href="">Home</a>
+				<a href="">Classes</a>
+				<a href="">Blog</a>
+				<a href="./regis.html">Join Us</a>
+			</div>
+		</div>
+		<!-- Content -->
+		<div class="regis-content">
+			<div id="errormsg"></div>
+			<div class="form-container">
+				<form action="./index.html" method="get" id="form">
+					<h1>Join Us <br></h1>
+					<div class="label-container">
+						<label for="name">Name : </label> 
+						<input type="text" name="name" id="name" placeholder="Name" >
+					</div>
+					<div class="label-container">
+						<label for="age">Age : </label> 
+						<input type="number" name="age" id="age" placeholder="Age" >
+					</div>
+					<div class="label-container">
+						<label for="gender">Gender : </label> 
+						<div class="rad-butts">
+							<input type="radio" name="gender" id="Female" value ="Female" > <h3>Female</h3>
+							<input type="radio" name="gender" id="Male"  value ="Male"> <h3>Male</h3>
+							<input type="radio" name="gender" id="Non-Binary"  value ="Non-Binary"> <h3>Non-Binary</h3>
+						</div>
+					</div>
+					<div class="label-container">
+						<label for="phone">Phone Number : </label> 
+						<input type="text" name="phone" id="phone" placeholder="Phone Number" >
+					</div>
+					<div class="label-container">
+						<label for="email">Email : </label> 
+						<input type="text" name="email" id="email" placeholder="Email" >
+					</div>
+					<br>
+					<div class="submit-div">
+						<button type="submit">Submit Form</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+			<div class="footer-content">
+				<div class="footer-left">
+					<h1>Find Us On:</h1>
+					<div class="footer-socmed">
+						<a href="https://www.instagram.com" target="_blank">
+							<img src="./Images/ig.png" alt="" />
+						</a>
+						<a href="https://www.facebook.com" target="_blank">
+							<img src="./Images/fb.png" alt="" />
+						</a>
+						<a href="https://www.twitter.com" target="_blank">
+							<img src="./Images/twt.png" alt="" />
+						</a>
+					</div>
+					<h1>Join Our Communities On:</h1>
+					<div class="footer-socmed">
+						<a href="https://www.discord.com" target="_blank">
+							<img src="./Images/dc.png" alt="" />
+						</a>						
+						<a href="https://www.whatsapp.com" target="_blank">
+							<img src="./Images/wa.png" alt="" />
+						</a>
+						<a href="https://www.wechat.com" target="_blank">
+							<img src="./Images/wechat.png" alt="" />
+						</a>
+						<a href="https://telegram.org" target="_blank">
+							<img src="./Images/tele.png" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="footer-right">
+					<h1>Legals:</h1>
+					<a href="#">Legal Stuff</a>
+					<h1>Privacy Policy:</h1>
+					<a href="#">Privacy Policy</a>
+					<h1>About us:</h1>
+					<a href="#">About us</a>
+				</div>
+			</div>
+			<div class="footer-logo">
+				<img src="./Images/Logo.png" alt="" />
+				<p>Copyright &#169 2022 All rights Reserved</p>
+			</div>
+		</div>
+		<!-- Script -->
+		<script src="./app.js"></script>
+		<script src="./regis.js"></script>
+	</body>
 </html>

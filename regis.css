@@ -1,0 +1,100 @@
+.regis-content {
+	height: 1264px;
+	padding-top: 4rem;
+	background-color: wheat;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+#errormsg {
+	padding-top: 1rem;
+	color: red;
+	font-size: 1.5rem;
+}
+
+.form-container {
+	padding-top: 4rem;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#form {
+	padding: 1.5rem;
+	height: 800px;
+	width: 800px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 30px;
+	text-align: start;
+}
+
+#form h1 {
+	font-size: 3rem;
+	text-align: center;
+	color: black;
+	padding-bottom: 1rem;
+}
+
+#form label {
+	display: block;
+	font-size: 1.5rem;
+	height: 36px;
+	text-align: center;
+}
+
+#form input {
+	display: block;
+	font-size: 1.25rem;
+	height: 64px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#form button {
+	font-size: 1.5rem;
+	padding: 1rem;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+#form button:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.rad-butts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form input[type="radio"] {
+	width: 20px;
+	display: flex;
+	font-size: 1.25rem;
+	margin: 0 12px 0 12px;
+}
+
+#text {
+	font-size: 50px;
+}
+
+.label-container {
+	height: 120px;
+}
+
+.submit-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
