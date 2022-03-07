@@ -62,3 +62,10 @@ let clsbtn = document.getElementById("classes-btn");
 clsbtn.addEventListener("click", () => {
 	window.location.href = "classes.html";
 });
+
+// goto blog
+let blogbtn = document.getElementById("blog-btn");
+
+blogbtn.addEventListener("click", () => {
+	window.location.href = "blog.html";
+});
