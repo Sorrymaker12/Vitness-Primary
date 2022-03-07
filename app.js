@@ -55,3 +55,10 @@ $(".classes-promos-img-right-btn").click(function () {
 		textSlides.eq(currIdx).show();
 	});
 });
+
+// Goto Class
+let clsbtn = document.getElementById("classes-btn");
+
+clsbtn.addEventListener("click", () => {
+	window.location.href = "classes.html";
+});

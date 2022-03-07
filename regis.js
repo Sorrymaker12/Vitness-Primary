@@ -9,7 +9,9 @@ const errorElement = document.getElementById("errormsg");
 form.addEventListener("submit", (e) => {
 	let messages = [];
 	if (nm.value.length < 3) {
-		messages.push("Error : Name is required to be 3 characters or more");
+		messages.push(
+			"Error : The length of your name must be 3 characters or more"
+		);
 	}
 
 	if (ag.value < 10) {
@@ -24,33 +26,33 @@ form.addEventListener("submit", (e) => {
 	});
 
 	if (!ticked) {
-		messages.push("Error : Select your gender");
+		messages.push("Error : You must select your gender");
 	}
 
 	if (ph.value.length != 14) {
 		messages.push(
-			"Error : Phone Number must be 14 characters long, including the country code"
+			"Error : Your phone number must be 14 characters long, including the country code"
 		);
 	}
 
 	if (!ph.value.startsWith("+81")) {
-		messages.push("Error : Phone Number must start with +81");
+		messages.push("Error : Your phone number must start with +81");
 	}
 
 	const newph = ph.value.substring(3);
 
 	if (isNaN(newph)) {
-		messages.push("Error : Phone Number must be numeric");
+		messages.push("Error : Your phone number must be numeric");
 	}
 
 	if (newph.length != 11) {
 		messages.push(
-			"Error : Phone Number must be 11 characters long, excluding the country code"
+			"Error : Your phone number must be 11 characters long, excluding the country code"
 		);
 	}
 
 	if (!emailrgx.test(email.value)) {
-		messages.push("Error : Email must contain @ and .com");
+		messages.push("Error : Your email must contain an @ and a .com");
 	}
 
 	if (messages.length > 0) {
