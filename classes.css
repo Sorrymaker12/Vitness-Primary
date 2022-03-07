@@ -1,7 +1,8 @@
 .classes-content {
 	padding-top: 4rem;
-	height: 1664px;
+	height: 1764px;
 	text-align: center;
+	background-color: #add8e6;
 }
 
 .classes-class {
@@ -120,7 +121,7 @@
 @media (max-width: 768px) {
 	.classes-content {
 		padding-top: 4rem;
-		height: 3664px;
+		height: 3764px;
 		text-align: center;
 	}
 	.classes-class {
@@ -150,7 +151,7 @@
 @media (max-width: 450px) {
 	.classes-content {
 		padding-top: 4rem;
-		height: 3064px;
+		height: 3164px;
 		text-align: center;
 	}
 	.classes-content h1 {
@@ -176,7 +177,7 @@
 @media (max-width: 400px) {
 	.classes-content {
 		padding-top: 4rem;
-		height: 2464px;
+		height: 2564px;
 		text-align: center;
 	}
 	.classes-content h1 {

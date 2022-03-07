@@ -1,0 +1,161 @@
+.blog-wrapper {
+	height: 5264px;
+	padding-top: 4rem;
+	text-align: center;
+	background-color: #6495ed;
+}
+
+h1 {
+	padding-top: 1rem;
+	font-size: 4rem;
+}
+
+.blog-content {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog-content-content {
+	width: 1000px;
+	border: solid 2px black;
+	border-radius: 10px;
+	margin: 2rem;
+	background-color: #afeeee;
+}
+
+.blog-content a {
+	text-decoration: none;
+	color: black;
+	padding: 1.5rem;
+}
+
+.blog-content a:hover {
+	cursor: pointer;
+}
+
+.blog-content a h1 {
+	font-size: 3rem;
+}
+
+.blog-content-content p {
+	font-size: 1.5rem;
+}
+
+.blog-img {
+	border-radius: 50px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+	.blog-wrapper {
+		height: 5464px;
+		padding-top: 4rem;
+		text-align: center;
+		background-color: #6495ed;
+	}
+
+	.blog-content-content {
+		width: 700px;
+		border: solid 2px black;
+		border-radius: 10px;
+		margin: 2rem;
+		background-color: #afeeee;
+	}
+}
+
+@media (max-width: 700px) {
+	.blog-wrapper {
+		height: 4064px;
+		padding-top: 4rem;
+		text-align: center;
+		background-color: #6495ed;
+	}
+
+	.blog-content-content {
+		width: 500px;
+		border: solid 2px black;
+		border-radius: 10px;
+		margin: 2rem;
+		background-color: #afeeee;
+	}
+
+	.blog-content a h1 {
+		font-size: 2.5rem;
+	}
+
+	.blog-img {
+		width: 400px;
+		border-radius: 20px;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.blog-wrapper {
+		height: 3564px;
+		padding-top: 4rem;
+		text-align: center;
+		background-color: #6495ed;
+	}
+
+	.blog-content-content {
+		width: 400px;
+		border: solid 2px black;
+		border-radius: 10px;
+		margin: 2rem;
+		background-color: #afeeee;
+	}
+
+	.blog-content a h1 {
+		font-size: 2rem;
+	}
+
+	.blog-content-content p {
+		font-size: 1.25rem;
+	}
+
+	.blog-img {
+		width: 300px;
+		border-radius: 20px;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.blog-wrapper {
+		height: 3064px;
+		padding-top: 4rem;
+		text-align: center;
+		background-color: #6495ed;
+	}
+
+	.blog-content-content {
+		width: 300px;
+		border: solid 2px black;
+		border-radius: 10px;
+		margin: 2rem;
+		background-color: #afeeee;
+	}
+
+	.blog-content a h1 {
+		font-size: 2rem;
+	}
+
+	.blog-content-content p {
+		font-size: 1rem;
+	}
+
+	.blog-img {
+		width: 200px;
+		border-radius: 20px;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+} ;
