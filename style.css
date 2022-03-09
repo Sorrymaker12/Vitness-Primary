@@ -476,3 +476,10 @@
 .footer-left a {
 	text-decoration: none;
 }
+
+/* Screen Saver */
+#mc {
+	z-index: 9999;
+	margin: 1rem;
+	border: solid 1px black;
+}
