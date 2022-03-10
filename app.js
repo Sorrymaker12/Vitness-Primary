@@ -125,7 +125,7 @@ $(document).mousemove(function () {
 	}, 3000);
 });
 
-$(document).mousewheel(function () {
+window.addEventListener("wheel", function () {
 	clearTimeout(to);
 	if (isOn) {
 		$("#mc").hide();
