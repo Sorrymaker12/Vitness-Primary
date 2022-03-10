@@ -124,3 +124,15 @@ $(document).mousemove(function () {
 		isOn = true;
 	}, 3000);
 });
+
+$(document).mousewheel(function () {
+	clearTimeout(to);
+	if (isOn) {
+		$("#mc").hide();
+		isOn = false;
+	}
+	to = setTimeout(function () {
+		$("#mc").show();
+		isOn = true;
+	}, 3000);
+});
