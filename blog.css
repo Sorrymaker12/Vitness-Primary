@@ -1,5 +1,5 @@
 .blog-wrapper {
-	height: 5264px;
+	height: 5664px;
 	padding-top: 4rem;
 	text-align: center;
 	background-color: #6495ed;
@@ -53,7 +53,7 @@ h1 {
 /* Responsiveness */
 @media (max-width: 1000px) {
 	.blog-wrapper {
-		height: 5464px;
+		height: 5864px;
 		padding-top: 4rem;
 		text-align: center;
 		background-color: #6495ed;
@@ -70,7 +70,7 @@ h1 {
 
 @media (max-width: 700px) {
 	.blog-wrapper {
-		height: 4064px;
+		height: 4464px;
 		padding-top: 4rem;
 		text-align: center;
 		background-color: #6495ed;
@@ -98,7 +98,7 @@ h1 {
 
 @media (max-width: 500px) {
 	.blog-wrapper {
-		height: 3564px;
+		height: 3964px;
 		padding-top: 4rem;
 		text-align: center;
 		background-color: #6495ed;
@@ -130,7 +130,7 @@ h1 {
 
 @media (max-width: 400px) {
 	.blog-wrapper {
-		height: 3064px;
+		height: 3464px;
 		padding-top: 4rem;
 		text-align: center;
 		background-color: #6495ed;
